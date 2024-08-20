@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ed4c499.css",
-    "main.js": "/static/js/main.952bafb9.js",
-    "static/js/453.ea94dd53.chunk.js": "/static/js/453.ea94dd53.chunk.js",
-    "index.html": "/index.html",
-    "main.2ed4c499.css.map": "/static/css/main.2ed4c499.css.map",
-    "main.952bafb9.js.map": "/static/js/main.952bafb9.js.map",
-    "453.ea94dd53.chunk.js.map": "/static/js/453.ea94dd53.chunk.js.map"
+    "main.css": "/react-game-of-life/static/css/main.2ed4c499.css",
+    "main.js": "/react-game-of-life/static/js/main.c534429b.js",
+    "static/js/453.ea94dd53.chunk.js": "/react-game-of-life/static/js/453.ea94dd53.chunk.js",
+    "index.html": "/react-game-of-life/index.html",
+    "main.2ed4c499.css.map": "/react-game-of-life/static/css/main.2ed4c499.css.map",
+    "main.c534429b.js.map": "/react-game-of-life/static/js/main.c534429b.js.map",
+    "453.ea94dd53.chunk.js.map": "/react-game-of-life/static/js/453.ea94dd53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ed4c499.css",
-    "static/js/main.952bafb9.js"
+    "static/js/main.c534429b.js"
   ]
 }
