@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .btn {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    flex: 1 0 auto;
+    min-width: 120px;
+  }
+  
+  .btn:hover {
+    background-color: #444;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  
+  .grid {
+    display: grid;
+    border: 2px solid #444;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 90vw;
+    aspect-ratio: 1;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+  }
+  
+  .cell {
+    background-color: #111;
+    border: 1px solid #333;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .cell.alive {
+    background-color: #00ff00;
+    box-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      font-size: 1.25rem;
+      padding: 8px 12px;
+      min-width: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+      padding: 6px 10px;
+      min-width: 80px;
+    }
+  
+    .grid {
+      max-width: 100%;
+      grid-template-columns: repeat(auto-fill, minmax(15px, 1fr));
+    }
+  
+    .cell {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
